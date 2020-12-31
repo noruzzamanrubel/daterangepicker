@@ -1,0 +1,46 @@
+@import "../variables";
+
+.hero-section {
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -202px;
+  padding-top: 240px;
+  padding-bottom: 100px;
+
+  @media only screen and (max-width: 767px) {
+    padding-bottom: 60px;
+  }
+
+  .hero-text {
+    margin-bottom: 96px;
+
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #FFFFFF;
+      letter-spacing: -1.35px;
+      line-height: 64px;
+      font-weight: 400;
+
+      @media only screen and (max-width: 767px) {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      color: rgba(#FFFFFF, 0.86);
+      letter-spacing: -0.56px;
+      line-height: 32px;
+
+      @media only screen and (max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+  }
+}

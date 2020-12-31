@@ -1,0 +1,24 @@
+.subscribe-form {
+  @media only screen and (max-width: 991px) {
+    margin-top: 40px;
+  }
+
+  p {
+    margin-bottom: 23px;
+  }
+
+  .subscribe-form-row {
+    .subscribe-form-input {
+      padding: 18px 16px;
+      border-radius: 4px;
+      font-size: 15px;
+      border-width: 0;
+      background-color: #fff;
+      color: #000;
+      width: 100%;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, .1) !important;
+    }
+  }
+}
+
+

@@ -1,0 +1,30 @@
+@import "mixins/typhography";
+//Button
+.booking-btn {
+    @include booking-btn;
+    &:hover {
+        color: #ffffff;
+        background-color: $primary-color;
+    }
+    &:active{
+        border: none;
+        box-shadow: none;
+        outline: none;
+        color: #ffffff;
+        background-color: $primary-color !important;
+    }
+
+    &:focus {
+        border: none;
+        box-shadow: none !important;
+        outline: none;
+        color: #ffffff;
+        background-color: $primary-color;
+    }
+}
+
+.footer-btn {
+    @extend .booking-btn;
+    padding: 18px 25px;
+    width: 100%;
+}
